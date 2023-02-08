@@ -1,0 +1,121 @@
+/*CSS Properties*/
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  html {
+    background-image:url("https://img.freepik.com/premium-vector/cloud-sky-background-blue-sky-with-mesh-clouds-pattern-realistic-summer-cloudspace-vector_555028-67.jpg?w=2000");
+  }
+  hr {
+    height: 2px;
+    background-color: aqua;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #42474b;
+    height: 25px;
+    font-size: 50px;
+    padding: 35px;
+  }
+  
+  .wrapper {
+    display: grid;
+    height: 600px;
+    grid-template-rows: 100px 1fr;
+    grid-template-columns: 1fr;
+    grid-gap: 1px;
+  
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 4px;
+  
+  }
+  
+  .container {
+    width: 425px;
+    height: 600px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color:#000000;
+    margin: 0 auto;
+    padding: auto;
+    box-shadow: 0px 0px 0px 20px rgba(0, 0, 0, 2);
+  }
+  
+  .inputArea {
+    background-color: #5b6d7c;
+    grid-column: 1/2;
+    display: block;
+  }
+  
+  input[type="text"] {
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-top: 30px;
+    padding-right: 38px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    background-color: rgb(218, 216, 216);
+    text-align: right;
+    border: 2px solid rgb(37, 37, 37);
+    border-radius: 15px;
+    
+  }
+  
+  /*   
+    input[type=button]:hover {
+      background-color: #8c8c8c;
+    } */
+  
+  input[type="text"]:disabled {
+    color: #000000;
+  }
+  
+  .btnr1 {
+    background-color: cadetblue;
+    text-align: center;
+    width: 102px;
+    border-style: double;
+    border-radius: 15px;
+    
+  }
+  
+  .btnr2 {
+    background-color:darkslategrey;
+    text-align: center;
+    width: 102px;
+    border-style: double;
+    border-color:aquamarine;
+    border-radius: 15px;
+  }
+  
+  .btnr1>input {
+    background: transparent;
+    border: none;
+    justify-content: center;
+    align-self: end;
+    color: white;
+    font-size: 2.5em;
+    margin-top: 25px;
+  }
+  
+  .btnr2>input {
+    background: transparent;
+    border: none;
+    justify-content: center;
+    align-self: end;
+    color: white;
+    font-size: 2.5em;
+    margin-top: 25px;
+  }
+  
+  .btnC>input {
+    color: #e31f1f !important;
+  }
